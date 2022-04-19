@@ -1,0 +1,12 @@
+Source: ros-foxy-imu-tools
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther1980@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Homepage: http://ros.org/wiki/imu_tools
+Standards-Version: 3.9.2
+
+Package: ros-foxy-imu-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-imu-complementary-filter, ros-foxy-imu-filter-madgwick, ros-foxy-rviz-imu-plugin, ros-foxy-ros-workspace
+Description: Various tools for IMU devices
