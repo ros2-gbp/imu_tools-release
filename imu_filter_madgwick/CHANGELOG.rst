@@ -2,6 +2,11 @@
 Changelog for package imu_filter_madgwick
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.1 (2022-05-02)
+------------------
+* Add missing test dependency
+* Contributors: Martin Günther
+
 2.0.0 (2022-04-12)
 ------------------
 * Initial release into ROS2 foxy, galactic and rolling
