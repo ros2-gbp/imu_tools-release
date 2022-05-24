@@ -2,6 +2,9 @@
 Changelog for package imu_filter_madgwick
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.2 (2022-05-24)
+------------------
+
 2.0.1 (2022-05-02)
 ------------------
 * Add missing test dependency
