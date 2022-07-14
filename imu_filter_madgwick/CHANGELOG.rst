@@ -2,16 +2,13 @@
 Changelog for package imu_filter_madgwick
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.3 (2022-07-14)
-------------------
-* Enable on Windows (`#162 <https://github.com/CCNYRoboticsLab/imu_tools/issues/162>`_)
-* Contributors: Lou Amadio
-
-2.0.2 (2022-05-24)
+2.1.1 (2022-05-24)
 ------------------
 
-2.0.1 (2022-05-02)
+2.1.0 (2022-05-02)
 ------------------
+* Switch to non-deprecated hpp header
+  The .h header became deprecated after galactic.
 * Add missing test dependency
 * Contributors: Martin Günther
 
