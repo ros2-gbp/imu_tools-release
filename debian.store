@@ -1,1 +1,1 @@
-{"base": "bdabd34", "parent": "debian/foxy/imu_filter_madgwick", "previous": "f13c615", "trim": "", "trimbase": ""}
+{"base": "d251218", "parent": "debian/foxy/imu_filter_madgwick", "previous": "6309fa0", "trim": "", "trimbase": ""}
