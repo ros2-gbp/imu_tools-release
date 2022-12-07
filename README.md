@@ -1,3 +1,30 @@
+## imu_tools (rolling) - 2.1.3-1
+
+The packages in the `imu_tools` repository were released into the `rolling` distro by running `/usr/bin/bloom-release imu_tools --rosdistro rolling -y` on `Wed, 07 Dec 2022 16:10:30 -0000`
+
+These packages were released:
+- `imu_complementary_filter`
+- `imu_filter_madgwick`
+- `imu_tools`
+- `rviz_imu_plugin`
+
+Version of package(s) in repository `imu_tools`:
+
+- upstream repository: https://github.com/CCNYRoboticsLab/imu_tools.git
+- release repository: https://github.com/ros2-gbp/imu_tools-release.git
+- rosdistro version: `2.1.2-1`
+- old version: `2.1.2-1`
+- new version: `2.1.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## imu_tools (humble) - 2.1.3-1
 
 The packages in the `imu_tools` repository were released into the `humble` distro by running `/usr/bin/bloom-release imu_tools --rosdistro humble -y` on `Wed, 07 Dec 2022 16:06:20 -0000`
