@@ -1,0 +1,13 @@
+Source: ros-iron-imu-filter-madgwick
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-rclcpp-lifecycle, ros-iron-sensor-msgs, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros, ros-iron-visualization-msgs, ros-iron-ros-workspace
+Homepage: http://ros.org/wiki/imu_filter_madgwick
+Standards-Version: 3.9.2
+
+Package: ros-iron-imu-filter-madgwick
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-rclcpp, ros-iron-rclcpp-action, ros-iron-rclcpp-lifecycle, ros-iron-sensor-msgs, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros, ros-iron-visualization-msgs, ros-iron-ros-workspace
+Description: Filter which fuses angular velocities, accelerations, and (optionally) magnetic readings from a generic IMU device into an orientation.
+ Based on code by Sebastian Madgwick, http://www.x-io.co.uk/node/8#open_source_ahrs_and_imu_algorithms.
