@@ -1,1 +1,1 @@
-{"base": "4c2279a", "parent": "debian/rolling/imu_complementary_filter", "previous": "d11d52a", "trim": "", "trimbase": ""}
+{"base": "6c9bc0b", "parent": "debian/jazzy/imu_complementary_filter", "previous": "c07a539", "trim": "", "trimbase": ""}
