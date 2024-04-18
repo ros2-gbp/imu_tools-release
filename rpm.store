@@ -1,1 +1,1 @@
-{"base": "f6201c1", "parent": "rpm/rolling/imu_filter_madgwick", "previous": "5403d22", "trim": "", "trimbase": ""}
+{"base": "622bd26", "parent": "rpm/jazzy/imu_filter_madgwick", "previous": "88886ab", "trim": "", "trimbase": ""}
