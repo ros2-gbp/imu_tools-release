@@ -1,3 +1,30 @@
+## imu_tools (iron) - 2.1.4-1
+
+The packages in the `imu_tools` repository were released into the `iron` distro by running `/usr/bin/bloom-release -y imu_tools --rosdistro iron` on `Fri, 26 Apr 2024 14:02:22 -0000`
+
+These packages were released:
+- `imu_complementary_filter`
+- `imu_filter_madgwick`
+- `imu_tools`
+- `rviz_imu_plugin`
+
+Version of package(s) in repository `imu_tools`:
+
+- upstream repository: https://github.com/CCNYRoboticsLab/imu_tools.git
+- release repository: https://github.com/ros2-gbp/imu_tools-release.git
+- rosdistro version: `2.1.3-3`
+- old version: `2.1.3-3`
+- new version: `2.1.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.23.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## imu_tools (humble) - 2.1.4-1
 
 The packages in the `imu_tools` repository were released into the `humble` distro by running `/usr/bin/bloom-release -y imu_tools --rosdistro humble` on `Fri, 26 Apr 2024 13:59:52 -0000`
