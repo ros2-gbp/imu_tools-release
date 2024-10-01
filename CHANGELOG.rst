@@ -2,6 +2,16 @@
 Changelog for package imu_complementary_filter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.0 (2024-10-01)
+------------------
+* Add QoS overriding options (`#207 <https://github.com/CCNYRoboticsLab/imu_tools/issues/207>`_)
+* Contributors: Aleksander Szymański
+
+2.1.4 (2024-04-26)
+------------------
+* Set read-only parameters as read_only (`#185 <https://github.com/CCNYRoboticsLab/imu_tools/issues/185>`_)
+* Contributors: Christoph Fröhlich
+
 2.1.3 (2022-12-07)
 ------------------
 * complementary: Build shared library
