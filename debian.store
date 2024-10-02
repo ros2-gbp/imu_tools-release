@@ -1,1 +1,1 @@
-{"base": "ff2441a", "parent": "debian/iron/imu_filter_madgwick", "previous": "00f7754", "trim": "", "trimbase": ""}
+{"base": "d3f07e2", "parent": "debian/iron/imu_filter_madgwick", "previous": "38687ea", "trim": "", "trimbase": ""}
