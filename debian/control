@@ -1,0 +1,13 @@
+Source: ros-kilted-imu-filter-madgwick
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-nav-msgs, ros-kilted-rclcpp, ros-kilted-rclcpp-action, ros-kilted-rclcpp-lifecycle, ros-kilted-sensor-msgs, ros-kilted-tf2-geometry-msgs, ros-kilted-tf2-ros, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Homepage: http://ros.org/wiki/imu_filter_madgwick
+Standards-Version: 3.9.2
+
+Package: ros-kilted-imu-filter-madgwick
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-nav-msgs, ros-kilted-rclcpp, ros-kilted-rclcpp-action, ros-kilted-rclcpp-lifecycle, ros-kilted-sensor-msgs, ros-kilted-tf2-geometry-msgs, ros-kilted-tf2-ros, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Description: Filter which fuses angular velocities, accelerations, and (optionally) magnetic readings from a generic IMU device into an orientation.
+ Based on code by Sebastian Madgwick, http://www.x-io.co.uk/node/8#open_source_ahrs_and_imu_algorithms.
