@@ -1,0 +1,12 @@
+Source: ros-kilted-imu-tools
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: http://ros.org/wiki/imu_tools
+Standards-Version: 3.9.2
+
+Package: ros-kilted-imu-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-imu-complementary-filter, ros-kilted-imu-filter-madgwick, ros-kilted-rviz-imu-plugin, ros-kilted-ros-workspace
+Description: Various tools for IMU devices
