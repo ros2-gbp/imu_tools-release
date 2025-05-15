@@ -1,1 +1,1 @@
-{"base": "7e5bc083b6c2", "parent": "debian/kilted/imu_filter_madgwick", "previous": "094092bca0e4", "trim": "", "trimbase": ""}
+{"base": "622a636", "parent": "debian/kilted/imu_filter_madgwick", "previous": "7328efe", "trim": "", "trimbase": ""}
