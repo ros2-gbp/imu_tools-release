@@ -1,0 +1,12 @@
+Source: ros-lyrical-imu-tools
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/imu_tools
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-imu-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-imu-complementary-filter, ros-lyrical-imu-filter-madgwick, ros-lyrical-rviz-imu-plugin, ros-lyrical-ros-workspace
+Description: Various tools for IMU devices
