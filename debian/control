@@ -1,0 +1,12 @@
+Source: ros-lyrical-rviz-imu-plugin
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), qt6-base-dev, ros-lyrical-ament-cmake, ros-lyrical-message-filters, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rviz-common, ros-lyrical-rviz-ogre-vendor, ros-lyrical-rviz-rendering, ros-lyrical-sensor-msgs, ros-lyrical-tf2, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/rviz_imu_plugin
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rviz-imu-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt6core6t64, libqt6gui6, libqt6opengl6, libqt6widgets6, ros-lyrical-message-filters, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rviz-common, ros-lyrical-rviz-ogre-vendor, ros-lyrical-rviz-rendering, ros-lyrical-sensor-msgs, ros-lyrical-tf2, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Description: RVIZ plugin for IMU visualization
