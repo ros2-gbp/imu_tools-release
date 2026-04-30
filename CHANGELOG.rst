@@ -2,6 +2,9 @@
 Changelog for package imu_complementary_filter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.3 (2026-04-30)
+------------------
+
 2.2.2 (2026-01-13)
 ------------------
 * Fixed a static library linking issue with the imu_complementary_filter package on Windows. (`#218 <https://github.com/CCNYRoboticsLab/imu_tools/issues/218>`_)
