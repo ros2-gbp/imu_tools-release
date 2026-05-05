@@ -1,1 +1,1 @@
-{"base": "052cf6398f69", "parent": "release/rolling/imu_complementary_filter/2.2.2-2", "previous": "0177e7434a64", "trim": "", "trimbase": ""}
+{"base": "4ac67d56edd6", "parent": "release/rolling/imu_complementary_filter", "previous": "c842f4396d92", "trim": "", "trimbase": ""}
