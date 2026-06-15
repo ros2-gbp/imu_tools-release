@@ -2,6 +2,11 @@
 Changelog for package rviz_imu_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.4 (2026-06-15)
+------------------
+* Fix build failures in update methods (`#233 <https://github.com/CCNYRoboticsLab/imu_tools/issues/233>`_)
+* Contributors: Michal Sojka
+
 2.2.3 (2026-04-30)
 ------------------
 * Changes to build with qt6 (`#230 <https://github.com/CCNYRoboticsLab/imu_tools/issues/230>`_)
