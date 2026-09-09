@@ -32,6 +32,9 @@
 
 #include <rviz_common/properties/status_property.hpp>
 #include <rviz_common/logging.hpp>
+#include <OgreSceneNode.h>
+#include <OgreSceneManager.h>
+
 namespace rviz_imu_plugin {
 
 ImuDisplay::ImuDisplay()
@@ -113,7 +116,8 @@ void ImuDisplay::reset()
     acc_visual_->hide();
 }
 
-void ImuDisplay::update(std::chrono::nanoseconds /* wall_dt */, std::chrono::nanoseconds /* ros_dt */)
+void ImuDisplay::update(std::chrono::nanoseconds /* wall_dt */,
+                        std::chrono::nanoseconds /* ros_dt */)
 {
     updateTop();
     updateBox();

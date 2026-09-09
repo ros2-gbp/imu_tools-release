@@ -32,6 +32,8 @@
 
 #include <rviz_common/properties/status_property.hpp>
 #include <rviz_common/logging.hpp>
+#include <OgreSceneNode.h>
+#include <OgreSceneManager.h>
 
 namespace rviz_imu_plugin {
 
@@ -85,7 +87,8 @@ void MagDisplay::reset()
     mag_visual_->hide();
 }
 
-void MagDisplay::update(std::chrono::nanoseconds /* wall_dt */, std::chrono::nanoseconds /* ros_dt */)
+void MagDisplay::update(std::chrono::nanoseconds /* wall_dt */,
+                        std::chrono::nanoseconds /* ros_dt */)
 {
     updateMag();
 }
