@@ -454,16 +454,6 @@ double ComplementaryFilter::getAdaptiveGain(double alpha, double ax, double ay,
     return factor * alpha;
 }
 
-void ComplementaryFilter::reset()
-{
-    initialized_ = false;
-    steady_state_ = false;
-    q0_ = 1.0;
-    q1_ = q2_ = q3_ = 0.0;
-    wx_bias_ = wy_bias_ = wz_bias_ = 0.0;
-    wx_prev_ = wy_prev_ = wz_prev_ = 0.0;
-}
-
 void normalizeVector(double& x, double& y, double& z)
 {
     double norm = sqrt(x * x + y * y + z * z);
@@ -496,7 +486,8 @@ void invertQuaternion(double q0, double q1, double q2, double q3,
 void scaleQuaternion(double gain, double& dq0, double& dq1, double& dq2,
                      double& dq3)
 {
-    if (dq0 < 0.0)  // 0.9
+    constexpr double interpolation_threshold = 0.9;
+    if (dq0 <= interpolation_threshold)
     {
         // Slerp (Spherical linear interpolation):
         double angle = acos(dq0);

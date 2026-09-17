@@ -3,7 +3,7 @@
 #define TEST_TEST_HELPERS_H_
 
 #include <gtest/gtest.h>
-#include <tf2/LinearMath/Quaternion.hpp>
+#include <tf2/LinearMath/Quaternion.h>
 
 #define MAX_DIFF 0.05
 

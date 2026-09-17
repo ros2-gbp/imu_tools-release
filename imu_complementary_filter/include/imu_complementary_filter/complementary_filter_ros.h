@@ -36,15 +36,15 @@
 
 #include <sensor_msgs/msg/magnetic_field.hpp>
 #include <geometry_msgs/msg/vector3_stamped.hpp>
-#include <message_filters/subscriber.hpp>
-#include <message_filters/sync_policies/approximate_time.hpp>
-#include <message_filters/synchronizer.hpp>
+#include <message_filters/subscriber.h>
+#include <message_filters/sync_policies/approximate_time.h>
+#include <message_filters/synchronizer.h>
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/imu.hpp>
 #include <std_msgs/msg/bool.hpp>
-#include <tf2/transform_datatypes.hpp>
-#include <tf2/LinearMath/Quaternion.hpp>
-#include <tf2_ros/transform_broadcaster.hpp>
+#include <tf2/transform_datatypes.h>
+#include <tf2/LinearMath/Quaternion.h>
+#include <tf2_ros/transform_broadcaster.h>
 #include <memory>
 
 #include "imu_complementary_filter/complementary_filter.h"
@@ -56,9 +56,6 @@ class ComplementaryFilterROS : public rclcpp::Node
   public:
     ComplementaryFilterROS();
     ~ComplementaryFilterROS() override;
-
-    // Reset the filter to the initial state.
-    void reset();
 
   private:
     // Convenience typedefs
@@ -89,12 +86,10 @@ class ComplementaryFilterROS : public rclcpp::Node
     bool publish_debug_topics_{};
     std::string fixed_frame_;
     double orientation_variance_{};
-    rclcpp::Duration time_jump_threshold_duration_{0, 0};
 
     // State variables:
     ComplementaryFilter filter_;
     rclcpp::Time time_prev_;
-    rclcpp::Time last_ros_time_;
     bool initialized_filter_;
 
     void initializeParams();
@@ -105,9 +100,6 @@ class ComplementaryFilterROS : public rclcpp::Node
 
     tf2::Quaternion hamiltonToTFQuaternion(double q0, double q1, double q2,
                                            double q3) const;
-
-    // Check whether ROS time has jumped back. If so, reset the filter.
-    void checkTimeJump();
 };
 
 }  // namespace imu_tools

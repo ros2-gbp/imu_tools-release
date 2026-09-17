@@ -2,16 +2,12 @@
 Changelog for package imu_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.3 (2026-04-30)
+2.1.6 (2026-09-17)
 ------------------
+* Use SPDX license tags in package.xml (`#235 <https://github.com/CCNYRoboticsLab/imu_tools/issues/235>`_)
+* Contributors: Michal Sojka
 
-2.2.2 (2026-01-13)
-------------------
-
-2.2.1 (2025-05-15)
-------------------
-
-2.2.0 (2024-10-01)
+2.1.5 (2024-10-01)
 ------------------
 
 2.1.4 (2024-04-26)
